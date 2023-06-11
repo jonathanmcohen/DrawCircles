@@ -2,12 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create a blank image
-image_size = (400, 400)
+image_size = (2000, 2000)
 image = np.ones(image_size) * 255
 
 # Define the circle parameters
-circle_center = (200, 200)
-circle_radii = [50, 100, 150, 200]
+circle_center = (1000, 1000)
+circle_radii = [150, 300, 450, 600]
 circle_colors = ['red', 'green', 'blue', 'yellow']
 circle_dots = [4, 8, 16, 32]
 
